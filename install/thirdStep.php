@@ -227,5 +227,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label class="formLabels" for="user_Email">User Email:</label>
     <input class="formFields" type="text" id="user_Email" required>
 
-    <input class="formButtons" type="submit" value="Enviar">
+    <input class="formButtons" type="submit" value="Submit">
 </form>
