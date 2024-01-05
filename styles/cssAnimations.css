@@ -1,0 +1,256 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animationRotate {
+  animation: rotate 2s linear infinite;
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animationPulse {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animationFadeIn {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animationSwing {
+  transform-origin: top center;
+  animation: swing 2s infinite ease-in-out;
+}
+
+@keyframes fadeAndMove {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animationFadeAndMove {
+  animation: fadeAndMove 1.5s ease-out;
+}
+
+@keyframes jump {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.animationJump {
+  animation: jump 1s ease-out infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #3498db;
+  }
+
+  50% {
+    background-color: #e74c3c;
+  }
+
+  100% {
+    background-color: #3498db;
+  }
+}
+
+.animationColorChange {
+  animation: colorChange 2s ease-in-out infinite;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animationGrow {
+  animation: grow 1.5s ease-in-out infinite;
+}
+
+@keyframes swingRight {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animationSwingRight {
+  transform-origin: top left;
+  animation: swingRight 2s infinite ease-in-out;
+}
+
+
+@keyframes pulseBorder {
+  0% {
+    border-width: 2px;
+  }
+
+  50% {
+    border-width: 8px;
+  }
+
+  100% {
+    border-width: 2px;
+  }
+}
+
+.animationPulseBorder {
+  border: 2px solid #3498db;
+  animation: pulseBorder 1.5s ease-in-out infinite;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animationSlideInRight {
+  animation: slideInRight 1s ease-out;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animationSlideInLeft {
+  animation: slideInLeft 1s ease-out;
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animationSlideInBottom {
+  animation: slideInBottom 1s ease-out;
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animationSlideInTop {
+  animation: slideInTop 1s ease-out;
+}

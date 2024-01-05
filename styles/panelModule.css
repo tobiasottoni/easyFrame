@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin: 0;
+}
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+}
+
+.logoDiv {
+    width: 20%;
+    justify-content: center;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.socialDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 2vi;
+    color: #545454;
+}
+
+.socialIcons:hover {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 3vi;
+    color: #4D4FE8;
+}
+
+
+.welcomeDiv {
+    position: absolute;
+    min-width: 100%;
+    top: 6.5vi;
+    font-size: 2.0vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+}
+
+.userDiv {
+    width: 96%;
+    display: flex;
+    padding: 1%;
+    justify-content: end;
+}
+
+.userBtns {
+    padding: 0.5vh;
+    max-height: 5vi;
+    color: #545454;
+    font-size: 1.3vi;
+}
+
+.sideMenuDiv {
+    width: 30%;
+    min-height: 100vh;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+    background-color: #e7e3e366;
+    padding: 1%;
+}
+
+.contentsDiv {
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 1.5vi;
+}
+
+.contentsPanelDiv {
+    background-color: #f1f0f021;
+    min-width: 70%;
+    max-width: 100%;
+    padding: 0.8vh;
+    font-size: 1.5vi;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+
+.footerDiv {
+    width: 100%;
+}
+
+.panelContent {
+    width: 100%;
+    display: flex;
+}
+
+.loginContent {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 2vh;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 90%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formEditor {
+    width: 90%;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    display: block;
+    padding-left: 1vi;
+}
+
+
+.formButtons {
+    width: 90%;
+    height: 4vi;
+    background-color: #4D4FE8;
+    color: #f8f8f8;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vi;
+    display: block;
+}
+
+.adminDiv {
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 35%;
+    right: 0;
+    margin: 1.5vh;
+    margin-left: 7vi;
+    display: grid;
+}
+
+.adminIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 2vi;
+    color: #545454;
+}

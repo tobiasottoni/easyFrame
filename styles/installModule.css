@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin: 0;
+}
+
+
+.logoDiv {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logoHeader {
+    max-width: 100vw;
+    padding: 1vw;
+}
+
+.contentsDiv {
+    width: 100%;
+    max-width: 100%;    
+}
+
+.installContent{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+}
+
+.installForm{  
+    background-color: #efeded75;
+    width: 50%;
+    margin-bottom: 10vi;
+    font-size: 1.5rem;
+    padding: 1vw;
+    border-radius: 6px;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 100%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formEditor {
+    width: 100%;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    display: block;
+    padding-left: 1vi;
+}
+
+
+.formButtons {
+    width: 100%;
+    height: 4vi;
+    background-color: #4D4FE8;
+    color: #f8f8f8;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #54545440;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+.starsRate{
+    color: #FDD835;
+}
+
+.footerDiv {
+    width: 100%;
+}
+
+

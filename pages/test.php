@@ -1,0 +1,1 @@
+<?php echo"New page of Test"; ?>
