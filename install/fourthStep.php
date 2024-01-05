@@ -4,7 +4,7 @@ $pathFileConfig = '../config/config.txt';
 $dataFileConfig = 'Successful configuration on ' . date('Y-m-d H:i:s');
 
 if (file_put_contents($pathFileConfig, $dataFileConfig)) {
-    echo 'You have successfully configured your AZ Linked';
+    echo 'You have successfully configured your easyFrame';
 } else {
     echo 'Error creating configuration file.';
 }
