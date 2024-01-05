@@ -3,7 +3,7 @@
 $server = "";
 $user = "";
 $pass = "";
-$database = "easyFrame";
+$database = "";
 
 $conn = mysqli_connect(
     $server,
