@@ -1,9 +1,3006 @@
-/* Colors:
-   Green: #78A321;
-   Gray: #D1CFCF;
-   Black: #100f00D;
-*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
+    
+/* Here we are setting up the basic content of pages */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Here we are setting up the headers of pages */
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 6vi;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 5vi;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4.5vi;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3.5vi;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+}
+
+/* Here we are setting up the columns and width sizes */
+
+.columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.width100 {
+    width: 100%;
+    flex: 100%;
+}
+
+.width90 {
+    width: 90%;
+    flex: 90%;
+}
+
+.width80 {
+    width: 80%;
+    flex: 80%;
+}
+
+.width70 {
+    width: 70%;
+    flex: 70%;
+}
+
+.width60 {
+    width: 60%;
+    flex: 60%;
+}
+
+.width50 {
+    width: 50%;
+    flex: 50%;
+}
+
+.width40 {
+    width: 40%;
+    flex: 40%;
+}
+
+.width30 {
+    width: 30%;
+    flex: 30%;
+}
+
+.width20 {
+    width: 20%;
+    flex: 20%;
+}
+
+.width10 {
+    width: 10%;
+    flex: 10%;
+}
+
+/* Here we are setting up the text colors */
+
+.textBlack {
+
+    color: #000000;
+
+}
+
+.textWhite {
+
+    color: #ffffff;
+
+}
+
+.textRed {
+
+    color: #F44336;
+
+}
+
+.textGreen {
+
+    color: #4CAF50;
+
+}
+
+.textBlue {
+
+    color: #4D4FE8;
+
+}
+
+.textYellow {
+
+    color: #FFEB3B;
+
+}
+
+
+.textCyan {
+
+    color: #00BCD4;
+
+}
+
+
+.textPink {
+
+    color: #E91E63;
+
+}
+
+
+.textGrey {
+
+    color: #545454;
+
+}
+
+
+.textOrange {
+
+    color: #FF9800;
+
+}
+
+
+.textPurple {
+
+    color: #9C27B0;
+
+}
+
+
+.textBrown {
+
+    color: #795548;
+
+}
+
+
+.textLime {
+
+    color: #CDDC39;
+
+}
+
+
+.textLightBlue {
+
+    color: #03A9F4;
+
+}
+
+
+.textLightPink {
+
+    color: #FFC0CB;
+
+}
+
+
+/* Here we are setting up the background colors */
+
+.backgroundBlack {
+
+    background-color: #000000;
+
+}
+
+.backgroundWhite {
+
+    background-color: #ffffff;
+
+}
+
+.backgroundRed {
+
+    background-color: #F44336;
+
+}
+
+.backgroundGreen {
+
+    background-color: #4CAF50;
+
+}
+
+.backgroundBlue {
+
+    background-color: #4D4FE8;
+
+}
+
+.backgroundYellow {
+
+    background-color: #FFEB3B;
+
+}
+
+
+.backgroundCyan {
+
+    background-color: #00BCD4;
+
+}
+
+
+.backgroundPink {
+
+    background-color: #E91E63;
+
+}
+
+
+.backgroundGrey {
+
+    background-color: #545454;
+
+}
+
+
+.backgroundOrange {
+
+    background-color: #FF9800;
+
+}
+
+
+.backgroundPurple {
+
+    background-color: #9C27B0;
+
+}
+
+
+.backgroundBrown {
+
+    background-color: #795548;
+
+}
+
+
+.backgroundLime {
+
+    background-color: #CDDC39;
+
+}
+
+
+.backgroundLightBlue {
+
+    background-color: #03A9F4;
+
+}
+
+
+.backgroundLightPink {
+
+    background-color: #FFC0CB;
+
+}
+
+.backgroundTransparent {
+
+    background-color: transparent;
+
+}
+
+
+/* Here we are setting up the tables / th / tr / td */
+
+.table {
+    width: 100%;
+}
+
+.table_th {
+    width: auto;
+    width: auto;
+    text-align: center;
+}
+
+.table_tr {
+    width: 100%;
+}
+
+.table_td {
+    width: auto;
+}
+
+/* Here we are setting up the margins */
+
+.margin1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.margin2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.margin3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.margin4 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Here we are setting up the paddings */
+
+.padding1 {
+
+    padding: 1%;
+
+}
+
+.padding2 {
+
+    padding: 2%;
+
+}
+
+.padding3 {
+
+    padding: 3%;
+
+}
+
+.padding4 {
+
+    padding: 4%;
+
+}
+
+.padding5 {
+
+    padding: 5%;
+
+}
+
+/* Here we are setting up the borders width */
+
+.borderWidth1 {
+    border-width: 1px;
+}
+
+.borderWidth2 {
+    border-width: 2px;
+}
+
+.borderWidth3 {
+    border-width: 3px;
+}
+
+.borderWidth4 {
+    border-width: 4px;
+}
+
+.borderWidth5 {
+    border-width: 5px;
+}
+
+/* Here we are setting up the border style*/
+
+.borderStyleSolid {
+    border-style: solid;
+}
+
+.borderStyleDashed {
+    border-style: dashed;
+}
+
+.borderStyleDotted {
+    border-style: dotted;
+}
+
+.borderStyleDouble {
+    border-style: double;
+}
+
+/* Here we are setting up the border radius*/
+
+.borderRadius1 {
+    border-radius: 1px;
+}
+
+.borderRadius2 {
+    border-radius: 2px;
+}
+
+.borderRadius3 {
+    border-radius: 3px;
+}
+
+.borderRadius4 {
+    border-radius: 4px;
+}
+
+.borderRadius5 {
+    border-radius: 5px;
+}
+
+/* Here we are setting up the border colors */
+
+.borderBlack {
+
+    border-color: #000000;
+
+}
+
+.borderWhite {
+
+    border-color: #ffffff;
+
+}
+
+.borderRed {
+
+    border-color: #F44336;
+
+}
+
+.borderGreen {
+
+    border-color: #4CAF50;
+
+}
+
+.borderBlue {
+
+    border-color: #4D4FE8;
+
+}
+
+.borderYellow {
+
+    border-color: #FFEB3B;
+
+}
+
+
+.borderCyan {
+
+    border-color: #00BCD4;
+
+}
+
+
+.borderPink {
+
+    border-color: #E91E63;
+
+}
+
+
+.borderGrey {
+
+    border-color: #545454;
+
+}
+
+
+.borderOrange {
+
+    border-color: #FF9800;
+
+}
+
+
+.borderPurple {
+
+    border-color: #9C27B0;
+
+}
+
+
+.borderBrown {
+
+    border-color: #795548;
+
+}
+
+
+.borderLime {
+
+    border-color: #CDDC39;
+
+}
+
+
+.borderLightBlue {
+
+    border-color: #03A9F4;
+
+}
+
+
+.borderLightPink {
+
+    border-color: #FFC0CB;
+
+}
+
+.borderTransparent {
+
+    border-color: transparent;
+
+}
+
+/* Here we are setting up the image sizes */
+
+.img100 {
+    width: 98%;
+    margin: 1%;
+}
+
+.img50 {
+    width: 48%;
+    margin: 1%;
+}
+
+
+.img25 {
+    width: 23%;
+    margin: 1%;
+}
+
+
+
+/* Here we are setting up a style to justify center */
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Here we are setting up a style to text shadows */
+
+.textShadowBlack {
+    text-shadow: 0.05vi 0.05vi #000000;
+}
+
+.textShadowWhite {
+    text-shadow: 0.05vi 0.05vi #FFFFFF;
+}
+
+.textShadowRed {
+    text-shadow: 0.05vi 0.05vi #F44336;
+}
+
+.textShadowGreen {
+    text-shadow: 0.05vi 0.05vi #4CAF50;
+}
+
+.textShadowBlue {
+    text-shadow: 0.05vi 0.05vi #4D4FE8;
+}
+
+.textShadowYellow {
+    text-shadow: 0.05vi 0.05vi #FFEB3B;
+}
+
+.textShadowCyan {
+    text-shadow: 0.05vi 0.05vi #00BCD4;
+}
+
+.textShadowPink {
+    text-shadow: 0.05vi 0.05vi #E91E63;
+}
+
+.textShadowGrey {
+    text-shadow: 0.05vi 0.05vi #545454;
+}
+
+.textShadowOrange {
+    text-shadow: 0.05vi 0.05vi #FF9800;
+}
+
+.textShadowPurple {
+    text-shadow: 0.05vi 0.05vi #9C27B0;
+}
+
+.textShadowBrown {
+    text-shadow: 0.05vi 0.05vi #795548;
+}
+
+.textShadowLime {
+    text-shadow: 0.05vi 0.05vi #CDDC39;
+}
+
+.textShadowLightBlue {
+    text-shadow: 0.05vi 0.05vi #03A9F4;
+}
+
+.textShadowLightPink {
+    text-shadow: 0.05vi 0.05vi #FFC0CB;
+}
+
+/* Here we are setting up a style to box shadows */
+
+.boxShadowBlack {
+    box-shadow: 1vi 1vi #000000;
+}
+
+.boxShadowWhite {
+    box-shadow: 1vi 1vi #FFFFFF;
+}
+
+.boxShadowRed {
+    box-shadow: 1vi 1vi #F44336;
+}
+
+.boxShadowGreen {
+    box-shadow: 1vi 1vi #4CAF50;
+}
+
+.boxShadowBlue {
+    box-shadow: 1vi 1vi #4D4FE8;
+}
+
+.boxShadowYellow {
+    box-shadow: 1vi 1vi #FFEB3B;
+}
+
+.boxShadowCyan {
+    box-shadow: 1vi 1vi #00BCD4;
+}
+
+.boxShadowPink {
+    box-shadow: 1vi 1vi #E91E63;
+}
+
+.boxShadowGrey {
+    box-shadow: 1vi 1vi #545454;
+}
+
+.boxShadowOrange {
+    box-shadow: 1vi 1vi #FF9800;
+}
+
+.boxShadowPurple {
+    box-shadow: 1vi 1vi #9C27B0;
+}
+
+.boxShadowBrown {
+    box-shadow: 1vi 1vi #795548;
+}
+
+.boxShadowLime {
+    box-shadow: 1vi 1vi #CDDC39;
+}
+
+.boxShadowLightBlue {
+    box-shadow: 1vi 1vi #03A9F4;
+}
+
+.boxShadowLightPink {
+    box-shadow: 1vi 1vi #FFC0CB;
+}
+
+/* Here we are Setting up the fonts types */
+
+.fontSerif {
+    font-family: serif;
+}
+
+.fontSansSerif {
+    font-family: sans-serif;
+}
+
+.fontMonospace {
+    font-family: monospace;
+}
+
+.fontCursive {
+    font-family: cursive;
+}
+
+.fontFantasy {
+    font-family: fantasy;
+}
+
+.fontArial {
+    font-family: Arial, sans-serif;
+}
+
+.fontHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.fontTimesNewRoman {
+    font-family: "Times New Roman", serif;
+}
+
+.fontCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.fontVerdana {
+    font-family: Verdana, sans-serif;
+}
+
+.fontGeorgia {
+    font-family: Georgia, serif;
+}
+
+.fontComicSansMS {
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+/* Here we are setting up the font sizes */
+
+.fontSize1 {
+    font-size: 1.5vi;
+    line-height: 0.5vi;
+}
+
+.fontSize2 {
+    font-size: 2vi;
+    line-height: 2vi;
+}
+
+.fontSize3 {
+    font-size: 2.5vi;
+    line-height: 2.5vi;
+}
+
+.fontSize4 {
+    font-size: 3vi;
+    line-height: 3vi;
+}
+
+.fontSize5 {
+    font-size: 3.5vi;
+    line-height: 3.5vi;
+}
+
+.fontSize6 {
+    font-size: 4vi;
+    line-height: 4vi;
+}
+
+.fontSize7 {
+    font-size: 4.5vi;
+    line-height: 4.5vi;
+}
+
+.fontSize8 {
+    font-size: 5vi;
+    line-height: 5vi;
+}
+
+.fontSize9 {
+    font-size: 5.5vi;
+    line-height: 5.5vi;
+}
+
+.fontSize10 {
+    font-size: 6vi;
+    line-height: 6vi;
+}
+
+/* Here we are setting up  the Divs of page*/
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    /*display: flex;*/
+    height: auto;
+    margin: 0;
+}
+
+.contentsDiv {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 4.5vw;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+
+.footerDiv {
+    width: 100%;
+}
+
+
+/* Here we are setting up the header */
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+}
+
+.logoDiv {
+    width: 33%;
+    justify-content: center;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.socialDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 4vi;
+}
+
+.socialIcons:hover {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 3vi;
+    color: #4D4FE8;
+}
+
+
+.welcomeDiv {
+    position: absolute;
+    min-width: 100%;
+    top: 6.5vi;
+    font-size: 2.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+}
+
+.userDiv {
+    width: 33%;
+    display: flex;
+    margin-top: 1vi;
+    justify-content: end;
+}
+
+.userContents {
+    padding: 0.5vh;
+    max-height: 5vi;
+    color: #545454;
+    font-size: 2.3vw;
+}
+
+/* Here we are setting up the Forms and Forms Contents */
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 2vh;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 90%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formButtons {
+    width: 90%;
+    height: 4vi;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vi;
+    display: block;
+}
+
+/* Here we are the Some Content (First Page of website) located at "components/someContentHome.php" */
+
+.someContentContainer {
+
+    background-color: #5f5b5b94;
+}
+
+.someContentDiv {
+    width: 98%;
+    margin: 1%;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+}
+
+.someContentList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.someContentItem {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: contents;
+}
+
+.someContentSpan {
+    color: #f8f8f8;
+    font-size: 3.2vi;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2vi;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    
+    
+/* Here we are setting up the basic content of pages */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Here we are setting up the headers of pages */
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 6vi;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 5vi;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4.5vi;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3.5vi;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+}
+
+/* Here we are setting up the columns and width sizes */
+
+.columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.width100 {
+    width: 100%;
+    flex: 100%;
+}
+
+.width90 {
+    width: 90%;
+    flex: 90%;
+}
+
+.width80 {
+    width: 80%;
+    flex: 80%;
+}
+
+.width70 {
+    width: 70%;
+    flex: 70%;
+}
+
+.width60 {
+    width: 60%;
+    flex: 60%;
+}
+
+.width50 {
+    width: 50%;
+    flex: 50%;
+}
+
+.width40 {
+    width: 40%;
+    flex: 40%;
+}
+
+.width30 {
+    width: 30%;
+    flex: 30%;
+}
+
+.width20 {
+    width: 20%;
+    flex: 20%;
+}
+
+.width10 {
+    width: 10%;
+    flex: 10%;
+}
+
+/* Here we are setting up the text colors */
+
+.textBlack {
+
+    color: #000000;
+
+}
+
+.textWhite {
+
+    color: #ffffff;
+
+}
+
+.textRed {
+
+    color: #F44336;
+
+}
+
+.textGreen {
+
+    color: #4CAF50;
+
+}
+
+.textBlue {
+
+    color: #4D4FE8;
+
+}
+
+.textYellow {
+
+    color: #FFEB3B;
+
+}
+
+
+.textCyan {
+
+    color: #00BCD4;
+
+}
+
+
+.textPink {
+
+    color: #E91E63;
+
+}
+
+
+.textGrey {
+
+    color: #545454;
+
+}
+
+
+.textOrange {
+
+    color: #FF9800;
+
+}
+
+
+.textPurple {
+
+    color: #9C27B0;
+
+}
+
+
+.textBrown {
+
+    color: #795548;
+
+}
+
+
+.textLime {
+
+    color: #CDDC39;
+
+}
+
+
+.textLightBlue {
+
+    color: #03A9F4;
+
+}
+
+
+.textLightPink {
+
+    color: #FFC0CB;
+
+}
+
+
+/* Here we are setting up the background colors */
+
+.backgroundBlack {
+
+    background-color: #000000;
+
+}
+
+.backgroundWhite {
+
+    background-color: #ffffff;
+
+}
+
+.backgroundRed {
+
+    background-color: #F44336;
+
+}
+
+.backgroundGreen {
+
+    background-color: #4CAF50;
+
+}
+
+.backgroundBlue {
+
+    background-color: #4D4FE8;
+
+}
+
+.backgroundYellow {
+
+    background-color: #FFEB3B;
+
+}
+
+
+.backgroundCyan {
+
+    background-color: #00BCD4;
+
+}
+
+
+.backgroundPink {
+
+    background-color: #E91E63;
+
+}
+
+
+.backgroundGrey {
+
+    background-color: #545454;
+
+}
+
+
+.backgroundOrange {
+
+    background-color: #FF9800;
+
+}
+
+
+.backgroundPurple {
+
+    background-color: #9C27B0;
+
+}
+
+
+.backgroundBrown {
+
+    background-color: #795548;
+
+}
+
+
+.backgroundLime {
+
+    background-color: #CDDC39;
+
+}
+
+
+.backgroundLightBlue {
+
+    background-color: #03A9F4;
+
+}
+
+
+.backgroundLightPink {
+
+    background-color: #FFC0CB;
+
+}
+
+.backgroundTransparent {
+
+    background-color: transparent;
+
+}
+
+
+/* Here we are setting up the tables / th / tr / td */
+
+.table {
+    width: 100%;
+}
+
+.table_th {
+    width: auto;
+    width: auto;
+    text-align: center;
+}
+
+.table_tr {
+    width: 100%;
+}
+
+.table_td {
+    width: auto;
+}
+
+/* Here we are setting up the margins */
+
+.margin1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.margin2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.margin3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.margin4 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Here we are setting up the paddings */
+
+.padding1 {
+
+    padding: 1%;
+
+}
+
+.padding2 {
+
+    padding: 2%;
+
+}
+
+.padding3 {
+
+    padding: 3%;
+
+}
+
+.padding4 {
+
+    padding: 4%;
+
+}
+
+.padding5 {
+
+    padding: 5%;
+
+}
+
+/* Here we are setting up the borders width */
+
+.borderWidth1 {
+    border-width: 1px;
+}
+
+.borderWidth2 {
+    border-width: 2px;
+}
+
+.borderWidth3 {
+    border-width: 3px;
+}
+
+.borderWidth4 {
+    border-width: 4px;
+}
+
+.borderWidth5 {
+    border-width: 5px;
+}
+
+/* Here we are setting up the border style*/
+
+.borderStyleSolid {
+    border-style: solid;
+}
+
+.borderStyleDashed {
+    border-style: dashed;
+}
+
+.borderStyleDotted {
+    border-style: dotted;
+}
+
+.borderStyleDouble {
+    border-style: double;
+}
+
+/* Here we are setting up the border radius*/
+
+.borderRadius1 {
+    border-radius: 1px;
+}
+
+.borderRadius2 {
+    border-radius: 2px;
+}
+
+.borderRadius3 {
+    border-radius: 3px;
+}
+
+.borderRadius4 {
+    border-radius: 4px;
+}
+
+.borderRadius5 {
+    border-radius: 5px;
+}
+
+/* Here we are setting up the border colors */
+
+.borderBlack {
+
+    border-color: #000000;
+
+}
+
+.borderWhite {
+
+    border-color: #ffffff;
+
+}
+
+.borderRed {
+
+    border-color: #F44336;
+
+}
+
+.borderGreen {
+
+    border-color: #4CAF50;
+
+}
+
+.borderBlue {
+
+    border-color: #4D4FE8;
+
+}
+
+.borderYellow {
+
+    border-color: #FFEB3B;
+
+}
+
+
+.borderCyan {
+
+    border-color: #00BCD4;
+
+}
+
+
+.borderPink {
+
+    border-color: #E91E63;
+
+}
+
+
+.borderGrey {
+
+    border-color: #545454;
+
+}
+
+
+.borderOrange {
+
+    border-color: #FF9800;
+
+}
+
+
+.borderPurple {
+
+    border-color: #9C27B0;
+
+}
+
+
+.borderBrown {
+
+    border-color: #795548;
+
+}
+
+
+.borderLime {
+
+    border-color: #CDDC39;
+
+}
+
+
+.borderLightBlue {
+
+    border-color: #03A9F4;
+
+}
+
+
+.borderLightPink {
+
+    border-color: #FFC0CB;
+
+}
+
+.borderTransparent {
+
+    border-color: transparent;
+
+}
+
+/* Here we are setting up the image sizes */
+
+.img100 {
+    width: 98%;
+    margin: 1%;
+}
+
+.img50 {
+    width: 48%;
+    margin: 1%;
+}
+
+
+.img25 {
+    width: 23%;
+    margin: 1%;
+}
+
+
+
+/* Here we are setting up a style to justify center */
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Here we are setting up a style to text shadows */
+
+.textShadowBlack {
+    text-shadow: 0.05vi 0.05vi #000000;
+}
+
+.textShadowWhite {
+    text-shadow: 0.05vi 0.05vi #FFFFFF;
+}
+
+.textShadowRed {
+    text-shadow: 0.05vi 0.05vi #F44336;
+}
+
+.textShadowGreen {
+    text-shadow: 0.05vi 0.05vi #4CAF50;
+}
+
+.textShadowBlue {
+    text-shadow: 0.05vi 0.05vi #4D4FE8;
+}
+
+.textShadowYellow {
+    text-shadow: 0.05vi 0.05vi #FFEB3B;
+}
+
+.textShadowCyan {
+    text-shadow: 0.05vi 0.05vi #00BCD4;
+}
+
+.textShadowPink {
+    text-shadow: 0.05vi 0.05vi #E91E63;
+}
+
+.textShadowGrey {
+    text-shadow: 0.05vi 0.05vi #545454;
+}
+
+.textShadowOrange {
+    text-shadow: 0.05vi 0.05vi #FF9800;
+}
+
+.textShadowPurple {
+    text-shadow: 0.05vi 0.05vi #9C27B0;
+}
+
+.textShadowBrown {
+    text-shadow: 0.05vi 0.05vi #795548;
+}
+
+.textShadowLime {
+    text-shadow: 0.05vi 0.05vi #CDDC39;
+}
+
+.textShadowLightBlue {
+    text-shadow: 0.05vi 0.05vi #03A9F4;
+}
+
+.textShadowLightPink {
+    text-shadow: 0.05vi 0.05vi #FFC0CB;
+}
+
+/* Here we are setting up a style to box shadows */
+
+.boxShadowBlack {
+    box-shadow: 1vi 1vi #000000;
+}
+
+.boxShadowWhite {
+    box-shadow: 1vi 1vi #FFFFFF;
+}
+
+.boxShadowRed {
+    box-shadow: 1vi 1vi #F44336;
+}
+
+.boxShadowGreen {
+    box-shadow: 1vi 1vi #4CAF50;
+}
+
+.boxShadowBlue {
+    box-shadow: 1vi 1vi #4D4FE8;
+}
+
+.boxShadowYellow {
+    box-shadow: 1vi 1vi #FFEB3B;
+}
+
+.boxShadowCyan {
+    box-shadow: 1vi 1vi #00BCD4;
+}
+
+.boxShadowPink {
+    box-shadow: 1vi 1vi #E91E63;
+}
+
+.boxShadowGrey {
+    box-shadow: 1vi 1vi #545454;
+}
+
+.boxShadowOrange {
+    box-shadow: 1vi 1vi #FF9800;
+}
+
+.boxShadowPurple {
+    box-shadow: 1vi 1vi #9C27B0;
+}
+
+.boxShadowBrown {
+    box-shadow: 1vi 1vi #795548;
+}
+
+.boxShadowLime {
+    box-shadow: 1vi 1vi #CDDC39;
+}
+
+.boxShadowLightBlue {
+    box-shadow: 1vi 1vi #03A9F4;
+}
+
+.boxShadowLightPink {
+    box-shadow: 1vi 1vi #FFC0CB;
+}
+
+/* Here we are Setting up the fonts types */
+
+.fontSerif {
+    font-family: serif;
+}
+
+.fontSansSerif {
+    font-family: sans-serif;
+}
+
+.fontMonospace {
+    font-family: monospace;
+}
+
+.fontCursive {
+    font-family: cursive;
+}
+
+.fontFantasy {
+    font-family: fantasy;
+}
+
+.fontArial {
+    font-family: Arial, sans-serif;
+}
+
+.fontHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.fontTimesNewRoman {
+    font-family: "Times New Roman", serif;
+}
+
+.fontCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.fontVerdana {
+    font-family: Verdana, sans-serif;
+}
+
+.fontGeorgia {
+    font-family: Georgia, serif;
+}
+
+.fontComicSansMS {
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+/* Here we are setting up the font sizes */
+
+.fontSize1 {
+    font-size: 1.5vi;
+    line-height: 0.5vi;
+}
+
+.fontSize2 {
+    font-size: 2vi;
+    line-height: 2vi;
+}
+
+.fontSize3 {
+    font-size: 2.5vi;
+    line-height: 2.5vi;
+}
+
+.fontSize4 {
+    font-size: 3vi;
+    line-height: 3vi;
+}
+
+.fontSize5 {
+    font-size: 3.5vi;
+    line-height: 3.5vi;
+}
+
+.fontSize6 {
+    font-size: 4vi;
+    line-height: 4vi;
+}
+
+.fontSize7 {
+    font-size: 4.5vi;
+    line-height: 4.5vi;
+}
+
+.fontSize8 {
+    font-size: 5vi;
+    line-height: 5vi;
+}
+
+.fontSize9 {
+    font-size: 5.5vi;
+    line-height: 5.5vi;
+}
+
+.fontSize10 {
+    font-size: 6vi;
+    line-height: 6vi;
+}
+
+/* Here we are setting up  the Divs of page*/
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    /*display: flex;*/
+    height: auto;
+    margin: 0;
+}
+
+.contentsDiv {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 4.5vw;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+
+.footerDiv {
+    width: 100%;
+}
+
+
+/* Here we are setting up the header */
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+}
+
+.logoDiv {
+    width: 33%;
+    justify-content: center;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.socialDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 4vi;
+}
+
+.socialIcons:hover {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 3vi;
+    color: #4D4FE8;
+}
+
+
+.welcomeDiv {
+    position: absolute;
+    min-width: 100%;
+    top: 6.5vi;
+    font-size: 2.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+}
+
+.userDiv {
+    width: 33%;
+    display: flex;
+    margin-top: 1vi;
+    justify-content: end;
+}
+
+.userContents {
+    padding: 0.5vh;
+    max-height: 5vi;
+    color: #545454;
+    font-size: 2.3vw;
+}
+
+/* Here we are setting up the Forms and Forms Contents */
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 2vh;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 90%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formButtons {
+    width: 90%;
+    height: 4vi;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vi;
+    display: block;
+}
+
+/* Here we are the Some Content (First Page of website) located at "components/someContentHome.php" */
+
+.someContentContainer {
+
+    background-color: #5f5b5b94;
+}
+
+.someContentDiv {
+    width: 98%;
+    margin: 1%;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+}
+
+.someContentList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.someContentItem {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: contents;
+}
+
+.someContentSpan {
+    color: #f8f8f8;
+    font-size: 3.2vi;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2vi;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    
+    
+/* Here we are setting up the basic content of pages */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Here we are setting up the headers of pages */
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 6vi;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 5vi;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4.5vi;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3.5vi;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+}
+
+/* Here we are setting up the columns and width sizes */
+
+.columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.width100 {
+    width: 100%;
+    flex: 100%;
+}
+
+.width90 {
+    width: 90%;
+    flex: 90%;
+}
+
+.width80 {
+    width: 80%;
+    flex: 80%;
+}
+
+.width70 {
+    width: 70%;
+    flex: 70%;
+}
+
+.width60 {
+    width: 60%;
+    flex: 60%;
+}
+
+.width50 {
+    width: 50%;
+    flex: 50%;
+}
+
+.width40 {
+    width: 40%;
+    flex: 40%;
+}
+
+.width30 {
+    width: 30%;
+    flex: 30%;
+}
+
+.width20 {
+    width: 20%;
+    flex: 20%;
+}
+
+.width10 {
+    width: 10%;
+    flex: 10%;
+}
+
+/* Here we are setting up the text colors */
+
+.textBlack {
+
+    color: #000000;
+
+}
+
+.textWhite {
+
+    color: #ffffff;
+
+}
+
+.textRed {
+
+    color: #F44336;
+
+}
+
+.textGreen {
+
+    color: #4CAF50;
+
+}
+
+.textBlue {
+
+    color: #4D4FE8;
+
+}
+
+.textYellow {
+
+    color: #FFEB3B;
+
+}
+
+
+.textCyan {
+
+    color: #00BCD4;
+
+}
+
+
+.textPink {
+
+    color: #E91E63;
+
+}
+
+
+.textGrey {
+
+    color: #545454;
+
+}
+
+
+.textOrange {
+
+    color: #FF9800;
+
+}
+
+
+.textPurple {
+
+    color: #9C27B0;
+
+}
+
+
+.textBrown {
+
+    color: #795548;
+
+}
+
+
+.textLime {
+
+    color: #CDDC39;
+
+}
+
+
+.textLightBlue {
+
+    color: #03A9F4;
+
+}
+
+
+.textLightPink {
+
+    color: #FFC0CB;
+
+}
+
+
+/* Here we are setting up the background colors */
+
+.backgroundBlack {
+
+    background-color: #000000;
+
+}
+
+.backgroundWhite {
+
+    background-color: #ffffff;
+
+}
+
+.backgroundRed {
+
+    background-color: #F44336;
+
+}
+
+.backgroundGreen {
+
+    background-color: #4CAF50;
+
+}
+
+.backgroundBlue {
+
+    background-color: #4D4FE8;
+
+}
+
+.backgroundYellow {
+
+    background-color: #FFEB3B;
+
+}
+
+
+.backgroundCyan {
+
+    background-color: #00BCD4;
+
+}
+
+
+.backgroundPink {
+
+    background-color: #E91E63;
+
+}
+
+
+.backgroundGrey {
+
+    background-color: #545454;
+
+}
+
+
+.backgroundOrange {
+
+    background-color: #FF9800;
+
+}
+
+
+.backgroundPurple {
+
+    background-color: #9C27B0;
+
+}
+
+
+.backgroundBrown {
+
+    background-color: #795548;
+
+}
+
+
+.backgroundLime {
+
+    background-color: #CDDC39;
+
+}
+
+
+.backgroundLightBlue {
+
+    background-color: #03A9F4;
+
+}
+
+
+.backgroundLightPink {
+
+    background-color: #FFC0CB;
+
+}
+
+.backgroundTransparent {
+
+    background-color: transparent;
+
+}
+
+
+/* Here we are setting up the tables / th / tr / td */
+
+.table {
+    width: 100%;
+}
+
+.table_th {
+    width: auto;
+    width: auto;
+    text-align: center;
+}
+
+.table_tr {
+    width: 100%;
+}
+
+.table_td {
+    width: auto;
+}
+
+/* Here we are setting up the margins */
+
+.margin1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.margin2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.margin3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.margin4 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Here we are setting up the paddings */
+
+.padding1 {
+
+    padding: 1%;
+
+}
+
+.padding2 {
+
+    padding: 2%;
+
+}
+
+.padding3 {
+
+    padding: 3%;
+
+}
+
+.padding4 {
+
+    padding: 4%;
+
+}
+
+.padding5 {
+
+    padding: 5%;
+
+}
+
+/* Here we are setting up the borders width */
+
+.borderWidth1 {
+    border-width: 1px;
+}
+
+.borderWidth2 {
+    border-width: 2px;
+}
+
+.borderWidth3 {
+    border-width: 3px;
+}
+
+.borderWidth4 {
+    border-width: 4px;
+}
+
+.borderWidth5 {
+    border-width: 5px;
+}
+
+/* Here we are setting up the border style*/
+
+.borderStyleSolid {
+    border-style: solid;
+}
+
+.borderStyleDashed {
+    border-style: dashed;
+}
+
+.borderStyleDotted {
+    border-style: dotted;
+}
+
+.borderStyleDouble {
+    border-style: double;
+}
+
+/* Here we are setting up the border radius*/
+
+.borderRadius1 {
+    border-radius: 1px;
+}
+
+.borderRadius2 {
+    border-radius: 2px;
+}
+
+.borderRadius3 {
+    border-radius: 3px;
+}
+
+.borderRadius4 {
+    border-radius: 4px;
+}
+
+.borderRadius5 {
+    border-radius: 5px;
+}
+
+/* Here we are setting up the border colors */
+
+.borderBlack {
+
+    border-color: #000000;
+
+}
+
+.borderWhite {
+
+    border-color: #ffffff;
+
+}
+
+.borderRed {
+
+    border-color: #F44336;
+
+}
+
+.borderGreen {
+
+    border-color: #4CAF50;
+
+}
+
+.borderBlue {
+
+    border-color: #4D4FE8;
+
+}
+
+.borderYellow {
+
+    border-color: #FFEB3B;
+
+}
+
+
+.borderCyan {
+
+    border-color: #00BCD4;
+
+}
+
+
+.borderPink {
+
+    border-color: #E91E63;
+
+}
+
+
+.borderGrey {
+
+    border-color: #545454;
+
+}
+
+
+.borderOrange {
+
+    border-color: #FF9800;
+
+}
+
+
+.borderPurple {
+
+    border-color: #9C27B0;
+
+}
+
+
+.borderBrown {
+
+    border-color: #795548;
+
+}
+
+
+.borderLime {
+
+    border-color: #CDDC39;
+
+}
+
+
+.borderLightBlue {
+
+    border-color: #03A9F4;
+
+}
+
+
+.borderLightPink {
+
+    border-color: #FFC0CB;
+
+}
+
+.borderTransparent {
+
+    border-color: transparent;
+
+}
+
+/* Here we are setting up the image sizes */
+
+.img100 {
+    width: 98%;
+    margin: 1%;
+}
+
+.img50 {
+    width: 48%;
+    margin: 1%;
+}
+
+
+.img25 {
+    width: 23%;
+    margin: 1%;
+}
+
+
+
+/* Here we are setting up a style to justify center */
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Here we are setting up a style to text shadows */
+
+.textShadowBlack {
+    text-shadow: 0.05vi 0.05vi #000000;
+}
+
+.textShadowWhite {
+    text-shadow: 0.05vi 0.05vi #FFFFFF;
+}
+
+.textShadowRed {
+    text-shadow: 0.05vi 0.05vi #F44336;
+}
+
+.textShadowGreen {
+    text-shadow: 0.05vi 0.05vi #4CAF50;
+}
+
+.textShadowBlue {
+    text-shadow: 0.05vi 0.05vi #4D4FE8;
+}
+
+.textShadowYellow {
+    text-shadow: 0.05vi 0.05vi #FFEB3B;
+}
+
+.textShadowCyan {
+    text-shadow: 0.05vi 0.05vi #00BCD4;
+}
+
+.textShadowPink {
+    text-shadow: 0.05vi 0.05vi #E91E63;
+}
+
+.textShadowGrey {
+    text-shadow: 0.05vi 0.05vi #545454;
+}
+
+.textShadowOrange {
+    text-shadow: 0.05vi 0.05vi #FF9800;
+}
+
+.textShadowPurple {
+    text-shadow: 0.05vi 0.05vi #9C27B0;
+}
+
+.textShadowBrown {
+    text-shadow: 0.05vi 0.05vi #795548;
+}
+
+.textShadowLime {
+    text-shadow: 0.05vi 0.05vi #CDDC39;
+}
+
+.textShadowLightBlue {
+    text-shadow: 0.05vi 0.05vi #03A9F4;
+}
+
+.textShadowLightPink {
+    text-shadow: 0.05vi 0.05vi #FFC0CB;
+}
+
+/* Here we are setting up a style to box shadows */
+
+.boxShadowBlack {
+    box-shadow: 1vi 1vi #000000;
+}
+
+.boxShadowWhite {
+    box-shadow: 1vi 1vi #FFFFFF;
+}
+
+.boxShadowRed {
+    box-shadow: 1vi 1vi #F44336;
+}
+
+.boxShadowGreen {
+    box-shadow: 1vi 1vi #4CAF50;
+}
+
+.boxShadowBlue {
+    box-shadow: 1vi 1vi #4D4FE8;
+}
+
+.boxShadowYellow {
+    box-shadow: 1vi 1vi #FFEB3B;
+}
+
+.boxShadowCyan {
+    box-shadow: 1vi 1vi #00BCD4;
+}
+
+.boxShadowPink {
+    box-shadow: 1vi 1vi #E91E63;
+}
+
+.boxShadowGrey {
+    box-shadow: 1vi 1vi #545454;
+}
+
+.boxShadowOrange {
+    box-shadow: 1vi 1vi #FF9800;
+}
+
+.boxShadowPurple {
+    box-shadow: 1vi 1vi #9C27B0;
+}
+
+.boxShadowBrown {
+    box-shadow: 1vi 1vi #795548;
+}
+
+.boxShadowLime {
+    box-shadow: 1vi 1vi #CDDC39;
+}
+
+.boxShadowLightBlue {
+    box-shadow: 1vi 1vi #03A9F4;
+}
+
+.boxShadowLightPink {
+    box-shadow: 1vi 1vi #FFC0CB;
+}
+
+/* Here we are Setting up the fonts types */
+
+.fontSerif {
+    font-family: serif;
+}
+
+.fontSansSerif {
+    font-family: sans-serif;
+}
+
+.fontMonospace {
+    font-family: monospace;
+}
+
+.fontCursive {
+    font-family: cursive;
+}
+
+.fontFantasy {
+    font-family: fantasy;
+}
+
+.fontArial {
+    font-family: Arial, sans-serif;
+}
+
+.fontHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.fontTimesNewRoman {
+    font-family: "Times New Roman", serif;
+}
+
+.fontCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.fontVerdana {
+    font-family: Verdana, sans-serif;
+}
+
+.fontGeorgia {
+    font-family: Georgia, serif;
+}
+
+.fontComicSansMS {
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+/* Here we are setting up the font sizes */
+
+.fontSize1 {
+    font-size: 1.5vi;
+    line-height: 0.5vi;
+}
+
+.fontSize2 {
+    font-size: 2vi;
+    line-height: 2vi;
+}
+
+.fontSize3 {
+    font-size: 2.5vi;
+    line-height: 2.5vi;
+}
+
+.fontSize4 {
+    font-size: 3vi;
+    line-height: 3vi;
+}
+
+.fontSize5 {
+    font-size: 3.5vi;
+    line-height: 3.5vi;
+}
+
+.fontSize6 {
+    font-size: 4vi;
+    line-height: 4vi;
+}
+
+.fontSize7 {
+    font-size: 4.5vi;
+    line-height: 4.5vi;
+}
+
+.fontSize8 {
+    font-size: 5vi;
+    line-height: 5vi;
+}
+
+.fontSize9 {
+    font-size: 5.5vi;
+    line-height: 5.5vi;
+}
+
+.fontSize10 {
+    font-size: 6vi;
+    line-height: 6vi;
+}
+
+/* Here we are setting up  the Divs of page*/
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    /*display: flex;*/
+    height: auto;
+    margin: 0;
+}
+
+.contentsDiv {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 4.5vw;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+
+.footerDiv {
+    width: 100%;
+}
+
+
+/* Here we are setting up the header */
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+}
+
+.logoDiv {
+    width: 33%;
+    justify-content: center;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.socialDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 4vi;
+}
+
+.socialIcons:hover {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 3vi;
+    color: #4D4FE8;
+}
+
+
+.welcomeDiv {
+    position: absolute;
+    min-width: 100%;
+    top: 6.5vi;
+    font-size: 2.5vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+}
+
+.userDiv {
+    width: 33%;
+    display: flex;
+    margin-top: 1vi;
+    justify-content: end;
+}
+
+.userContents {
+    padding: 0.5vh;
+    max-height: 5vi;
+    color: #545454;
+    font-size: 2.3vw;
+}
+
+/* Here we are setting up the Forms and Forms Contents */
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 2vh;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 90%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formButtons {
+    width: 90%;
+    height: 4vi;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vi;
+    display: block;
+}
+
+/* Here we are the Some Content (First Page of website) located at "components/someContentHome.php" */
+
+.someContentContainer {
+
+    background-color: #5f5b5b94;
+}
+
+.someContentDiv {
+    width: 98%;
+    margin: 1%;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+}
+
+.someContentList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.someContentItem {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: contents;
+}
+
+.someContentSpan {
+    color: #f8f8f8;
+    font-size: 3.2vi;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2vi;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    
 /* Here we are setting up the basic content of pages */
 
 body {
@@ -995,4 +3992,1007 @@ h6 {
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1vi;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    
+/* Here we are setting up the basic content of pages */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Here we are setting up the headers of pages */
+
+h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 4vi;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 3vi;
+}
+
+h3 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2.5vi;
+}
+
+h4 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2vi;
+
+}
+
+h5 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.5vi;
+}
+
+h6 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1vi;
+}
+
+/* Here we are setting up the columns and width sizes */
+
+.columns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.width100 {
+    width: 100%;
+    flex: 100%;
+}
+
+.width90 {
+    width: 90%;
+    flex: 90%;
+}
+
+.width80 {
+    width: 80%;
+    flex: 80%;
+}
+
+.width70 {
+    width: 70%;
+    flex: 70%;
+}
+
+.width60 {
+    width: 60%;
+    flex: 60%;
+}
+
+.width50 {
+    width: 50%;
+    flex: 50%;
+}
+
+.width40 {
+    width: 40%;
+    flex: 40%;
+}
+
+.width30 {
+    width: 30%;
+    flex: 30%;
+}
+
+.width20 {
+    width: 20%;
+    flex: 20%;
+}
+
+.width10 {
+    width: 10%;
+    flex: 10%;
+}
+
+/* Here we are setting up the text colors */
+
+.textBlack {
+
+    color: #000000;
+
+}
+
+.textWhite {
+
+    color: #ffffff;
+
+}
+
+.textRed {
+
+    color: #F44336;
+
+}
+
+.textGreen {
+
+    color: #4CAF50;
+
+}
+
+.textBlue {
+
+    color: #4D4FE8;
+
+}
+
+.textYellow {
+
+    color: #FFEB3B;
+
+}
+
+
+.textCyan {
+
+    color: #00BCD4;
+
+}
+
+
+.textPink {
+
+    color: #E91E63;
+
+}
+
+
+.textGrey {
+
+    color: #545454;
+
+}
+
+
+.textOrange {
+
+    color: #FF9800;
+
+}
+
+
+.textPurple {
+
+    color: #9C27B0;
+
+}
+
+
+.textBrown {
+
+    color: #795548;
+
+}
+
+
+.textLime {
+
+    color: #CDDC39;
+
+}
+
+
+.textLightBlue {
+
+    color: #03A9F4;
+
+}
+
+
+.textLightPink {
+
+    color: #FFC0CB;
+
+}
+
+
+/* Here we are setting up the background colors */
+
+.backgroundBlack {
+
+    background-color: #000000;
+
+}
+
+.backgroundWhite {
+
+    background-color: #ffffff;
+
+}
+
+.backgroundRed {
+
+    background-color: #F44336;
+
+}
+
+.backgroundGreen {
+
+    background-color: #4CAF50;
+
+}
+
+.backgroundBlue {
+
+    background-color: #4D4FE8;
+
+}
+
+.backgroundYellow {
+
+    background-color: #FFEB3B;
+
+}
+
+
+.backgroundCyan {
+
+    background-color: #00BCD4;
+
+}
+
+
+.backgroundPink {
+
+    background-color: #E91E63;
+
+}
+
+
+.backgroundGrey {
+
+    background-color: #545454;
+
+}
+
+
+.backgroundOrange {
+
+    background-color: #FF9800;
+
+}
+
+
+.backgroundPurple {
+
+    background-color: #9C27B0;
+
+}
+
+
+.backgroundBrown {
+
+    background-color: #795548;
+
+}
+
+
+.backgroundLime {
+
+    background-color: #CDDC39;
+
+}
+
+
+.backgroundLightBlue {
+
+    background-color: #03A9F4;
+
+}
+
+
+.backgroundLightPink {
+
+    background-color: #FFC0CB;
+
+}
+
+.backgroundTransparent {
+
+    background-color: transparent;
+
+}
+
+
+/* Here we are setting up the tables / th / tr / td */
+
+.table {
+    width: 100%;
+}
+
+.table_th {
+    width: auto;
+    width: auto;
+    text-align: center;
+}
+
+.table_tr {
+    width: 100%;
+}
+
+.table_td {
+    width: auto;
+}
+
+/* Here we are setting up the margins */
+
+.margin1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.margin2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.margin3 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.margin4 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.margin5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Here we are setting up the paddings */
+
+.padding1 {
+
+    padding: 1%;
+
+}
+
+.padding2 {
+
+    padding: 2%;
+
+}
+
+.padding3 {
+
+    padding: 3%;
+
+}
+
+.padding4 {
+
+    padding: 4%;
+
+}
+
+.padding5 {
+
+    padding: 5%;
+
+}
+
+/* Here we are setting up the borders width */
+
+.borderWidth1 {
+    border-width: 1px;
+}
+
+.borderWidth2 {
+    border-width: 2px;
+}
+
+.borderWidth3 {
+    border-width: 3px;
+}
+
+.borderWidth4 {
+    border-width: 4px;
+}
+
+.borderWidth5 {
+    border-width: 5px;
+}
+
+/* Here we are setting up the border style*/
+
+.borderStyleSolid {
+    border-style: solid;
+}
+
+.borderStyleDashed {
+    border-style: dashed;
+}
+
+.borderStyleDotted {
+    border-style: dotted;
+}
+
+.borderStyleDouble {
+    border-style: double;
+}
+
+/* Here we are setting up the border radius*/
+
+.borderRadius1 {
+    border-radius: 1px;
+}
+
+.borderRadius2 {
+    border-radius: 2px;
+}
+
+.borderRadius3 {
+    border-radius: 3px;
+}
+
+.borderRadius4 {
+    border-radius: 4px;
+}
+
+.borderRadius5 {
+    border-radius: 5px;
+}
+
+/* Here we are setting up the border colors */
+
+.borderBlack {
+
+    border-color: #000000;
+
+}
+
+.borderWhite {
+
+    border-color: #ffffff;
+
+}
+
+.borderRed {
+
+    border-color: #F44336;
+
+}
+
+.borderGreen {
+
+    border-color: #4CAF50;
+
+}
+
+.borderBlue {
+
+    border-color: #4D4FE8;
+
+}
+
+.borderYellow {
+
+    border-color: #FFEB3B;
+
+}
+
+
+.borderCyan {
+
+    border-color: #00BCD4;
+
+}
+
+
+.borderPink {
+
+    border-color: #E91E63;
+
+}
+
+
+.borderGrey {
+
+    border-color: #545454;
+
+}
+
+
+.borderOrange {
+
+    border-color: #FF9800;
+
+}
+
+
+.borderPurple {
+
+    border-color: #9C27B0;
+
+}
+
+
+.borderBrown {
+
+    border-color: #795548;
+
+}
+
+
+.borderLime {
+
+    border-color: #CDDC39;
+
+}
+
+
+.borderLightBlue {
+
+    border-color: #03A9F4;
+
+}
+
+
+.borderLightPink {
+
+    border-color: #FFC0CB;
+
+}
+
+.borderTransparent {
+
+    border-color: transparent;
+
+}
+
+/* Here we are setting up the image sizes */
+
+.img100 {
+    width: 98%;
+    margin: 1%;
+}
+
+.img50 {
+    width: 48%;
+    margin: 1%;
+}
+
+
+.img25 {
+    width: 23%;
+    margin: 1%;
+}
+
+
+
+/* Here we are setting up a style to justify center */
+
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+/* Here we are setting up a style to text shadows */
+
+.textShadowBlack {
+    text-shadow: 0.05vi 0.05vi #000000;
+}
+
+.textShadowWhite {
+    text-shadow: 0.05vi 0.05vi #FFFFFF;
+}
+
+.textShadowRed {
+    text-shadow: 0.05vi 0.05vi #F44336;
+}
+
+.textShadowGreen {
+    text-shadow: 0.05vi 0.05vi #4CAF50;
+}
+
+.textShadowBlue {
+    text-shadow: 0.05vi 0.05vi #4D4FE8;
+}
+
+.textShadowYellow {
+    text-shadow: 0.05vi 0.05vi #FFEB3B;
+}
+
+.textShadowCyan {
+    text-shadow: 0.05vi 0.05vi #00BCD4;
+}
+
+.textShadowPink {
+    text-shadow: 0.05vi 0.05vi #E91E63;
+}
+
+.textShadowGrey {
+    text-shadow: 0.05vi 0.05vi #545454;
+}
+
+.textShadowOrange {
+    text-shadow: 0.05vi 0.05vi #FF9800;
+}
+
+.textShadowPurple {
+    text-shadow: 0.05vi 0.05vi #9C27B0;
+}
+
+.textShadowBrown {
+    text-shadow: 0.05vi 0.05vi #795548;
+}
+
+.textShadowLime {
+    text-shadow: 0.05vi 0.05vi #CDDC39;
+}
+
+.textShadowLightBlue {
+    text-shadow: 0.05vi 0.05vi #03A9F4;
+}
+
+.textShadowLightPink {
+    text-shadow: 0.05vi 0.05vi #FFC0CB;
+}
+
+/* Here we are setting up a style to box shadows */
+
+.boxShadowBlack {
+    box-shadow: 1vi 1vi #000000;
+}
+
+.boxShadowWhite {
+    box-shadow: 1vi 1vi #FFFFFF;
+}
+
+.boxShadowRed {
+    box-shadow: 1vi 1vi #F44336;
+}
+
+.boxShadowGreen {
+    box-shadow: 1vi 1vi #4CAF50;
+}
+
+.boxShadowBlue {
+    box-shadow: 1vi 1vi #4D4FE8;
+}
+
+.boxShadowYellow {
+    box-shadow: 1vi 1vi #FFEB3B;
+}
+
+.boxShadowCyan {
+    box-shadow: 1vi 1vi #00BCD4;
+}
+
+.boxShadowPink {
+    box-shadow: 1vi 1vi #E91E63;
+}
+
+.boxShadowGrey {
+    box-shadow: 1vi 1vi #545454;
+}
+
+.boxShadowOrange {
+    box-shadow: 1vi 1vi #FF9800;
+}
+
+.boxShadowPurple {
+    box-shadow: 1vi 1vi #9C27B0;
+}
+
+.boxShadowBrown {
+    box-shadow: 1vi 1vi #795548;
+}
+
+.boxShadowLime {
+    box-shadow: 1vi 1vi #CDDC39;
+}
+
+.boxShadowLightBlue {
+    box-shadow: 1vi 1vi #03A9F4;
+}
+
+.boxShadowLightPink {
+    box-shadow: 1vi 1vi #FFC0CB;
+}
+
+/* Here we are Setting up the fonts types */
+
+.fontSerif {
+    font-family: serif;
+}
+
+.fontSansSerif {
+    font-family: sans-serif;
+}
+
+.fontMonospace {
+    font-family: monospace;
+}
+
+.fontCursive {
+    font-family: cursive;
+}
+
+.fontFantasy {
+    font-family: fantasy;
+}
+
+.fontArial {
+    font-family: Arial, sans-serif;
+}
+
+.fontHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.fontTimesNewRoman {
+    font-family: "Times New Roman", serif;
+}
+
+.fontCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.fontVerdana {
+    font-family: Verdana, sans-serif;
+}
+
+.fontGeorgia {
+    font-family: Georgia, serif;
+}
+
+.fontComicSansMS {
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+/* Here we are setting up the font sizes */
+
+.fontSize1 {
+    font-size: 1.5vi;
+    line-height: 0.5vi;
+}
+
+.fontSize2 {
+    font-size: 2vi;
+    line-height: 2vi;
+}
+
+.fontSize3 {
+    font-size: 2.5vi;
+    line-height: 2.5vi;
+}
+
+.fontSize4 {
+    font-size: 3vi;
+    line-height: 3vi;
+}
+
+.fontSize5 {
+    font-size: 3.5vi;
+    line-height: 3.5vi;
+}
+
+.fontSize6 {
+    font-size: 4vi;
+    line-height: 4vi;
+}
+
+.fontSize7 {
+    font-size: 4.5vi;
+    line-height: 4.5vi;
+}
+
+.fontSize8 {
+    font-size: 5vi;
+    line-height: 5vi;
+}
+
+.fontSize9 {
+    font-size: 5.5vi;
+    line-height: 5.5vi;
+}
+
+.fontSize10 {
+    font-size: 6vi;
+    line-height: 6vi;
+}
+
+/* Here we are setting up  the Divs of page*/
+
+.bodyDiv {
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.pageDiv {
+    width: 100%;
+    /*display: flex;*/
+    height: auto;
+    margin: 0;
+}
+
+.contentsDiv {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.5vi;
+}
+
+.singleContentDiv {
+    height: auto;
+}
+
+
+.footerDiv {
+    width: 100%;
+}
+
+
+/* Here we are setting up the header */
+
+.headerDiv {
+    width: 100%;
+    display: flex;
+}
+
+.logoDiv {
+    width: 33%;
+    justify-content: center;
+}
+
+.logoHeader {
+    width: 100%;
+}
+
+.socialDiv {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 2vi;
+}
+
+.socialIcons:hover {
+    padding: 0.5vh;
+    max-height: 3vh;
+    font-size: 3vi;
+    color: #4D4FE8;
+}
+
+
+.welcomeDiv {
+    position: absolute;
+    min-width: 100%;
+    top: 6.5vi;
+    font-size: 2.0vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454;
+}
+
+.userDiv {
+    width: 33%;
+    display: flex;
+    margin-top: 1vi;
+    justify-content: end;
+}
+
+.userContents {
+    padding: 0.5vh;
+    max-height: 5vi;
+    color: #545454;
+    font-size: 1.3vi;
+}
+
+/* Here we are setting up the Forms and Forms Contents */
+
+.form {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 2vh;
+}
+
+.formLabels {
+    font-size: 2vi;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    margin-top: 0.25vi;
+    margin-bottom: 0.5vi;
+}
+
+.formFields {
+    width: 90%;
+    height: 4vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 1.5vi;
+    padding-left: 1vi;
+}
+
+.formButtons {
+    width: 90%;
+    height: 4vi;
+    font-size: 3vi;
+    border-radius: 13vi;
+    border-color: #D1CFCF40;
+    border-style: solid;
+    border-width: thin;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1vi;
+    display: block;
+}
+
+/* Here we are the Some Content (First Page of website) located at "components/someContentHome.php" */
+
+.someContentContainer {
+
+    background-color: #5f5b5b94;
+}
+
+.someContentDiv {
+    width: 98%;
+    margin: 1%;
+    height: auto;
+    display: grid;
+    overflow: hidden;
+}
+
+.someContentList {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.someContentItem {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: contents;
+}
+
+.someContentSpan {
+    color: #f8f8f8;
+    font-size: 1.2vi;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1vi;
+}
+
+    
+
 }
