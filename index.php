@@ -164,7 +164,6 @@ include('connections/databaseConnection.php');
     </script>
 
     <script src="scripts/menu.js"></script>
-    <script src="scripts/charts.js"></script>
 
 
 </body>
